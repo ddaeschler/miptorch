@@ -1,5 +1,5 @@
 import torch
-import lp_solver
+from . import lp_solver
 import math
 from dataclasses import dataclass
 from typing import List, Tuple
